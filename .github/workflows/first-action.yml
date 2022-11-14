@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Print greeting
-        run: echo "Hello to First Github Actions Build!!"
-      - name: Print goodbye
-        run: echo "Great working with Github Actions!!"
+        run: |
+            echo "Hello to First Github Actions Build!!"
+            echo "Great working with Github Actions!!"
